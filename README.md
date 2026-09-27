@@ -1,29 +1,28 @@
 # CS5760 Homework 2
 
-## Student Information
+## 👤 Student Information
 
 | Field | Details |
 | --- | --- |
 | Student Name | Srinivas Reddy Pittu |
 | Student ID | 700777009 |
 | University | University of Central Missouri |
-| Department | Computer Science & Cybersecurity |
+| Department | Data Science & AI |
 | Course | CS5760 Natural Language Processing |
 | Semester | Fall 2026 |
 
-## Overview
+## 📌 Overview
 
 This homework covers Naive Bayes text classification, harms of classification, bigram language models, Laplace smoothing, backoff, and multiclass evaluation. It combines written calculations with two Python programs that demonstrate how the methods work.
 
 The final report, [Homework 2_Pittu_700777009.docx](Homework%202_Pittu_700777009.docx), contains handwritten calculations, written explanations, commented Python code, and screenshots of the program outputs.
 
-## Submission Files
+## 📂 Submission Files
 
 | File | Purpose |
 | --- | --- |
 | `Homework 2_Pittu_700777009.docx` | Final homework report with answers, calculations, code, and output screenshots. |
-| `evaluation_metrics.py` | Python implementation for Part I, Question 5. |
-| `bigram_language_model.py` | Python implementation for Part II, Question 1. |
+| `Metrics_Bigram_HW2.py` | Python implementation for Part I, Question 5 and Python implementation for Part II, Question 1. |
 | `README.md` | Assignment overview, implementation details, results, and run instructions. |
 
 The two Python programs are also included in the Word report. The script names above match the source files used in the run instructions below.
@@ -188,8 +187,7 @@ Both alternatives after `love` have probability `1/2`. However, ending after `le
 Open a terminal in the folder containing the Python files and run:
 
 ```bash
-python evaluation_metrics.py
-python bigram_language_model.py
+python Metrics_Bigram_HW2.ipynb
 ```
 
 Use `python3` instead of `python` if that is the Python command on your system. Both scripts include their input data and run without additional arguments.
@@ -197,21 +195,12 @@ Use `python3` instead of `python` if that is the Python command on your system. 
 ### Run in Google Colab
 
 1. Open a Python notebook in Google Colab.
-2. Upload both `.py` files through the notebook's Files panel.
+2. Upload the `.ipynb` files through the notebook's Files panel.
 3. Run the following commands in separate cells:
 
 ```python
-%run evaluation_metrics.py
-```
-
-```python
-%run bigram_language_model.py
+%run Metrics_Bigram_HW2.ipynb
 ```
 
 The first program prints the evaluation metrics. The second prints unigram counts, bigram counts, MLE probabilities, and the sentence comparison. The expected outputs are also shown in the final Word report.
 
-## Reference Material
-
-- CS5760 Homework 2 assignment instructions and supplied datasets.
-- Course lecture: *Text Classification and Naive Bayes*.
-- Final report: `Homework 2_Pittu_700777009.docx`.
